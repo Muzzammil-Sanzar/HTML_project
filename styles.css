@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+    color: #73777B;
+    font-family: 'Raleway';
+}
+
+h3{
+    color: black;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.left-nav{
+    overflow: hidden;
+    display: flex;
+    float: left;
+    font-family: sans-serif;
+    text-align: center;
+}
+.left-nav :is(a, i, select){
+    margin: 32px 7px 0 7px;
+    font-size: 1.3rem;
+}
+
+.right-nav{
+    width: auto;
+    margin-top: 32px;
+    text-align: center;
+    float: right;
+}
+
+.right-nav a{
+    margin-right: 5px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+select{
+    border-style: none;
+    color: #0AA1DD;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nav img{
+    width: 200px;
+    margin: 15px 20px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #398AB9;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.main-img img{
+    width: 100%;
+    height: 98vh;
+    padding-bottom: 60px;
+}
+
+.videos h2{
+    padding: 30px 0;
+}
+.videos p{
+    padding: 60px 0px;
+    text-align: center;
+    color: #73777B;
+    font-size: 1.1rem;
+}
+.vid1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: auto;   
+}
+.vid1 video{
+    top: 0%;
+    padding: 10px 30px 0 30px;
+    width: 33%;
+}
+.features{
+    overflow: hidden;
+}
+.features h2{
+    font-size: 2.5rem;
+    padding: 10px 0 30px 0;
+}
+.features img{
+    width: 100%;
+    height: auto;
+}
+.features-p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.features-p div{
+    width: 30%;
+    padding: 0 13px;
+    justify-content: center;
+}
+.features-p p{
+    text-align: justify;
+}
+.benifits{
+    display: flex;
+    justify-content: center;
+}
+
+.benifits-div{
+    width: 65%;
+}
+
+.benifits-div p{
+    text-align: justify;
+    margin-bottom: 65px;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.benifits h2{
+    font-size: 2.7rem;
+    font-weight: bolder;
+    padding: 80px 0 60px 0;
+}
+
+.benifits-img{
+    margin-bottom: 9px;
+}
+
+.benifits-div h3{
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.benifits-div img{
+    width: 140px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+
+.collection img{
+    width: 100%;
+    height: auto;
+}
+
+.who{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px 10px;
+    margin-bottom: 120px;
+}
+.clipmine{
+    background-color: #EEEEEE;
+}
+.clipmine h2{
+    font-size: 2.5rem;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.img-combi, .img-toyo, .img-hon, .img-uof, .img-gcu, .img-merc, .p{
+    display: flex;
+    justify-content: center;
+}
+.p{
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+.p a{
+    color: #0AA1DD;
+}
+
+.who img{
+    width: 50%;
+    height: auto;
+}
+
+.tag-h2{
+    margin: 90px 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.tag-h2 h2{
+    font-size: 2.1rem;
+    margin-bottom: 65px;
+}
+
+.tag{
+    display: flex;
+    justify-content: center;
+}
+.tag input{
+    width: 55%;
+    padding: 15px;
+    border-style: none;
+    box-shadow: 5px 5px 8px grey;
+    font-size: 1.2rem;
+}
+
+.tag button{
+    border-style: none;
+    background-color: #398AB9;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 1.2rem;
+    padding: 3px 10px;
+}
+.platform{
+    background-color: #EEEEEE;
+}
+.platform h2{
+    padding: 100px;
+    font-size: 2.5rem;
+
+}
+.platform-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.platform img{
+    width: 10%;
+    height: auto;
+}
+
+.footer-links{
+    background-color: #413F42;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 3px;
+    color: #73777B;
+}
+.footer-links a{
+    color: #0AA1DD;
+}
+.footer-address{
+    background-color: #21273D;
+    height: 6vh;
+    text-align: center;
+    color: #EEEEEE;
+    padding-top: 8px;
+}
+.footer-address a{
+    color: #EEEEEE;
+}
+
+@media only screen and (max-width: 1440px){
+    .left-nav img{
+        width: 180px;
+    }
+    .left-nav :is(a, i, select){
+        margin: 27px 3px 0 2px;
+        font-size: 1.2rem;
+    }
+    .benifits-div h3{
+        font-size: 1.5rem;
+    }
+    .benifits-div p{
+        font-size: 1.1rem;
+    }
+    .benifits-div img{
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .benifits-div h3{
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+    .benifits-div p{
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+    .benifits-div img{
+        width: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .left-nav img{
+        width: 130px;
+    }
+    .right-nav{
+        margin-top: 20px;
+    }
+    .left-nav :is(a, i, select){
+        margin: 23px 3px 0 2px;
+        font-size: 1.2rem;
+    }
+    .main-img img{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .vid1 video{
+        width: 50%;
+    }
+    .features h2{
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .features p{
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+    .tag input{
+        width: 70%;
+        padding: 10px;
+    }
+    .tag button{
+        padding: 10px 5px;
+    }
+    .benifits-div img{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .left-nav img{
+        width: 110px;
+    }
+    .left-nav :is(a, i, select){
+        margin: 19px 3px 0 2px;
+        font-size: 1rem;
+    }
+    .videos h2{
+        font-size: 1.3rem;
+    }
+    .videos p{
+        font-size: 0.9rem;
+    }
+    .vid1 video{
+        width: 50%;
+    }
+    .features-p{
+        flex-direction: column;
+    }
+    .features-p div{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .features p{
+        text-align: justify;
+        font-size: 0.6rem;
+    }
+    .tag input{
+        width: 70%;
+        padding: 10px;
+    }
+    .tag button{
+        padding: 10px 5px;
+    }
+    .benifits-div img{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .left-nav :is(a, i, select){
+        margin: 10px 2px 0 2px;
+        font-size: 0.9rem;
+    }
+    .nav img{
+        margin: 15px 10px;
+        width: 100px;
+    }
+    .checkbtn{
+        display: block;
+        line-height: 35px;
+    }
+    .links{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #EEEEEE;
+        top: 35px;
+        left: -100%;
+        text-align: center;
+        z-index: 1;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search{
+        display: flex;
+        justify-content: center;
+    }
+    .left-nav select{
+        width: 100px;
+    }
+    .right-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-nav a{
+        font-size: 0.9rem;
+        padding-bottom: 15px;
+    }
+
+    #check:checked ~ .links{
+        left:0;
+    }
+    .main-img img{
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .videos h2{
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    .videos p{
+        font-size: 0.7rem;
+        padding: 15px 13px;
+    }
+    .vid1 video{
+        width: 70%;
+    }
+    .features h2{
+        font-size: 1.6rem;
+    }
+    .features-p{
+        flex-direction: column;
+    }
+    .features p{
+        text-align: justify;
+        font-size: 0.6rem;
+    }
+    .benifits-div{
+        width: 88%;
+    }
+    
+    .benifits-div p{
+        margin-bottom: 25px;
+        font-size: 0.6rem;
+    }
+    
+    .benifits h2{
+        font-size: 1.5rem;
+        padding: 30px 0;
+    }
+    .benifits h3{
+        font-size: 0.8rem;
+    }
+    .benifits-div img{
+        width: 16%;
+        padding-right: 6px;
+    }
+    .who{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .who img{
+        width: 65%;
+        height: auto;
+    }
+
+    .clipmine h2{
+        font-size: 1.5rem;
+        margin-top: 40px;
+    }
+    .p{
+        font-size: 0.9rem;
+        padding-bottom: 20px;
+    }
+    .tag-h2{
+        margin-bottom: 40px;
+        font-size: 1.3rem;
+    }
+    .tag-h2 h2{
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .tag input{
+        width: 70%;
+        padding: 3px;
+        font-size: 0.6rem;
+    }
+    .tag button{
+        padding: 2px 3px;
+        font-size: 0.8rem;
+    }
+    .platform h2{
+        font-size: 1.2rem;
+        padding: 40px 5px 60px 5px;
+    }
+    .platform-div{
+        padding-bottom: 30px;
+    }
+    .footer-links{
+        font-size: 0.7rem;
+    }
+    .footer-address{
+        font-size: 0.7rem;
+    }
+}
