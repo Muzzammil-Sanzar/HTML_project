@@ -424,7 +424,10 @@ select{
 
     .search{
         display: flex;
+        position: absolute;
         justify-content: center;
+        top: 4%;
+        right: 10%;
     }
     .left-nav select{
         width: 100px;
